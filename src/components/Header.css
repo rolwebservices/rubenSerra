@@ -1,0 +1,19 @@
+header{
+    background-color: var(--grisClaro);
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    background: var(--naranjaClaro);
+}
