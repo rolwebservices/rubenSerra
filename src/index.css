@@ -1,0 +1,52 @@
+:root {
+    /*Colors*/
+    --grisClaro: #DDD;
+    --grisOscuro: #151515;
+    --marron: #854836;
+    --naranjaClaro: #f5b553;
+
+    
+
+    /*Typography*/
+    --base-font: "Neuton", serif;
+    --alternative-font: "Neuton", serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--base-font);
+    color: var(--marron);
+    background-color: var(--grisClaro);
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: inherit;
+    font-family: inherit;
+}
+
+header, footer {
+    font-family: var(--alternative-font);
+    color: var(--marron);
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
