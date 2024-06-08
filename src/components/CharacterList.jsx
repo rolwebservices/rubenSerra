@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+/* import React, { useContext } from 'react';
 import { MarvelContext } from '../context/MarvelContext';
 import './CharacterList.css'
 
@@ -23,3 +23,4 @@ const CharacterList = () => {
 };
 
 export default CharacterList;
+ */

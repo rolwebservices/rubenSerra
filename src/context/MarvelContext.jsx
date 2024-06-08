@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from 'react';
+/* import React, { createContext, useState, useEffect } from 'react';
 import axios from 'axios';
 import md5 from 'md5';
 
@@ -42,3 +42,4 @@ const MarvelProvider = ({ children }) => {
 };
 
 export { MarvelContext, MarvelProvider };
+ */
