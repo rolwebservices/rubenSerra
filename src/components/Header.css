@@ -42,6 +42,7 @@ nav a:hover{
     font-size: 1.4rem;
     font-weight: bold;
     position: relative;
+    z-index: 500000000;
 }
 
 .nav__toggle{

@@ -7,7 +7,7 @@ import './Hero.css'
 const Hero = () => {
   return (
     <div className='destacados'>
-        <h1 className='destacados__titulo'>Productos destacados</h1>
+        {/* <h1 className='body__titulos'>Productos destacados</h1> */}
         <ImageGallery 
         items={[
             {original: ban3},
@@ -20,6 +20,8 @@ const Hero = () => {
         showFullscreenButton={false}
         showNav={false}
         showBullets={true}
+        autoPlay={true}
+        interval={5000}
         />
     </div>
   )

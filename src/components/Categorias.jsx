@@ -4,7 +4,7 @@ import imagen from '../assets/react.svg'
 const Categorias = () => {
   return (
     <>
-      <h1>CATEGORIAS</h1>
+      <h1 className='body__titulos'>CATEGORIAS</h1>
       <ul className='categorias__caja'>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>

@@ -50,3 +50,9 @@ ul, ol {
 img {
     width: 100%;
 }
+
+.body__titulos{
+    font-size: 1.6em;
+    text-align: center;
+    text-transform: uppercase;
+}
