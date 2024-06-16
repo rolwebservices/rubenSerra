@@ -1,0 +1,12 @@
+
+.image-gallery-slide {
+    width: 100%;
+    height: 200px;
+
+}
+
+.image-gallery-slide img{
+    width: 100%;
+    /* 
+    height: 200px; */
+}

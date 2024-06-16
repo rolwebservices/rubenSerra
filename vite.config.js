@@ -5,7 +5,8 @@ import EnvironmentPlugin from 'vite-plugin-environment';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),
-    EnvironmentPlugin(['REACT_APP_MARVEL_PUBLIC_KEY', 'REACT_APP_MARVEL_PRIVATE_KEY'])
+    /* EnvironmentPlugin(['REACT_APP_MARVEL_PUBLIC_KEY', 'REACT_APP_MARVEL_PRIVATE_KEY']) */
   ],
+  base:"/rubenSerra/"
   
 })

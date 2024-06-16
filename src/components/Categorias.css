@@ -1,0 +1,16 @@
+.categorias__caja{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.categorias__card{
+    padding: 4%;
+}
+
+.categorias__titulo{
+    font-size: 1em;
+}
