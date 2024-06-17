@@ -8,67 +8,67 @@ const Categorias = () => {
       <ul className='categorias__caja'>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
         <li className='categorias__card'>
           <h3 className='categorias__titulo'>Categoria</h3>
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="foto-categoria" />
         </li>
       </ul>
         {/*

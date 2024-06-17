@@ -6,7 +6,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <header>
-    <nav className='container'>
+      <nav className='container'>
         {/* <picture>
             <img src="" alt="" />
         </picture> */}
@@ -21,8 +21,8 @@ const Header = () => {
           <span></span>
           <span></span>
           <span></span>
-          </div>
-    </nav>
+        </div>
+      </nav>
     </header>
   )
 }
