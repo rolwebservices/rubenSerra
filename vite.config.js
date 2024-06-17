@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react(),
     /* EnvironmentPlugin(['REACT_APP_MARVEL_PUBLIC_KEY', 'REACT_APP_MARVEL_PRIVATE_KEY']) */
   ],
-  base:"/rubenSerra/"
+  base:"https://rolwebservices.github.io/rubenSerra"
   
 })
