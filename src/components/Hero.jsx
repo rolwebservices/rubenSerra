@@ -1,29 +1,24 @@
 import React from 'react'
-import ImageGallery from 'react-image-gallery'
-import ban3 from '/ban3.jpeg'
-import "react-image-gallery/styles/css/image-gallery.css";
-import './Hero.css'
+import Slider from './Slider'
 
 const Hero = () => {
+
+  const images = [
+    {src: '../public/ban1.jpeg', link: '#', alt: 'Promo x'},
+    {src: '../public/ban2.jpeg', link: '#', alt: 'Promo y'},
+    {src: '../public/ban3.jpeg', link: '#', alt: 'Promo z'}
+  ]
+
+  const images2 = [
+    {src: '../public/ban1.jpeg', link: '#', alt: 'Promo x'},
+    {src: '../public/ban2.jpeg', link: '#', alt: 'Promo y'}
+  ]
+
   return (
-    <div className='destacados'>
-        {/* <h1 className='body__titulos'>Productos destacados</h1> */}
-        <ImageGallery 
-        items={[
-            {original: ban3},
-            {original: ban3},
-            {original: ban3}
-        ]}
-        
-        showPlayButton={false}
-        showThumbnails={false}
-        showFullscreenButton={false}
-        showNav={false}
-        showBullets={true}
-        autoPlay={true}
-        interval={5000}
-        />
-    </div>
+    <>
+      <Slider images={images} velocity={15}/>
+    </>
+
   )
 }
 
