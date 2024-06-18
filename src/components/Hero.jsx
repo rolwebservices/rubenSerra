@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     <>
-      <Slider images={images} velocity={15}/>
+      <Slider images={images}/>
     </>
 
   )

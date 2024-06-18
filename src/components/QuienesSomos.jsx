@@ -2,6 +2,7 @@ import React from 'react'
 import './QuienesSomos.css'
 import quienesSomos from '/ban3.jpeg'
 const QuienesSomos = () => {
+
   return (
     <div className='qsomos'>
     <h1 className='body__titulos'>QUIENES SOMOS</h1>
