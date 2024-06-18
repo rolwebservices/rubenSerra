@@ -1,3 +1,33 @@
-.slider__contacto {
-    animation: scroll 1s linear infinite!important;
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    background-color: var(--grisOscuro);
+    padding: 20px;
+}
+
+.contacto h1{
+    color: var(--grisClaro);
+}
+
+.contacto__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 100%;
+    gap: 10px;
+}
+
+.contacto__item{
+    font-size: 1.5em;
+    color: var(--naranjaClaro);
+    display: inherit;
+    align-items: center;
+    gap: 5px;
+}
+
+.contacto ul svg{
+    color: var(--grisClaro);
 }
