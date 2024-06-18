@@ -1,22 +1,21 @@
 import React from 'react'
 import Slider from './Slider'
+import ban1 from '/ban1.jpeg'
+import ban2 from '/ban2.jpeg'
+import ban3 from '/ban3.jpeg'
+
 
 const Hero = () => {
 
   const images = [
-    {src: '../public/ban1.jpeg', link: '#', alt: 'Promo x'},
-    {src: '../public/ban2.jpeg', link: '#', alt: 'Promo y'},
-    {src: '../public/ban3.jpeg', link: '#', alt: 'Promo z'}
-  ]
-
-  const images2 = [
-    {src: '../public/ban1.jpeg', link: '#', alt: 'Promo x'},
-    {src: '../public/ban2.jpeg', link: '#', alt: 'Promo y'}
+    {src: ban1, link: '#', alt: 'Promo x'},
+    {src: ban2, link: '#', alt: 'Promo y'},
+    {src: ban3, link: '#', alt: 'Promo z'}
   ]
 
   return (
     <>
-      <Slider images={images} velocity={15}/>
+      <Slider images={images}/>
     </>
 
   )

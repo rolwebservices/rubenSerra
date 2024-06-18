@@ -2,9 +2,8 @@ import './Slider.css'
 import { useEffect, useState } from 'react';
 
 
-function Slider( { images, velocity } ) {
+function Slider( { images} ) {
     const [slideCount, setSlideCount] = useState(images.length);
-    const [slideVelocity, setSlideVelocity] = useState(velocity);
 
 
     useEffect(() => {
@@ -17,8 +16,7 @@ function Slider( { images, velocity } ) {
       '--slide-track-width',
       `calc(100vw * ${slideCount})`
     );
-    document.documentElement.style.setProperty('--slide-velocity', `${slideVelocity}s`);
-  }, [slideCount, slideVelocity]);
+  }, [slideCount]);
 
   return (
     <div className='slider'>
