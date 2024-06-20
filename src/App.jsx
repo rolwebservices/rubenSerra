@@ -6,6 +6,8 @@ import Categorias from './components/Categorias'
 import CharacterList from './components/CharacterList'; */
 import QuienesSomos from './components/QuienesSomos';
 import Contacto from './components/Contacto';
+import Footer from './components/Footer';
+
 
 function App() {
 
@@ -16,6 +18,7 @@ function App() {
       <Categorias/>
       <QuienesSomos/>
       <Contacto/>
+      <Footer />
       {/* <MarvelProvider>
         <CharacterList/>
       </MarvelProvider> */}
