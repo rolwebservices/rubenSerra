@@ -17,7 +17,16 @@ nav {
     align-items: center;
 }
 
-nav a:hover{
+.nav__logo{
+    display: flex;
+    height: 70px;
+}
+
+.logo__link{
+    display: inherit;
+}
+
+.nav__items a:hover{
     background: var(--naranjaClaro);
 }
 
