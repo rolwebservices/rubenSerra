@@ -1,24 +1,25 @@
 import './App.css'
 import Header from './components/Header'
-import Hero from './components/Hero'
-import Categorias from './components/Categorias'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './components/Home'
+import Tienda from './components/Tienda'
 /* import { MarvelProvider } from './context/MarvelContext';
 import CharacterList from './components/CharacterList'; */
-import QuienesSomos from './components/QuienesSomos';
-import Contacto from './components/Contacto';
-import Footer from './components/Footer';
+
 
 
 function App() {
 
   return (
     <>
+    <BrowserRouter>
       <Header/>
-      <Hero/>
-      <Categorias/>
-      <QuienesSomos/>
-      <Contacto/>
-      <Footer />
+      <Routes>
+        <Route path='/rubenSerra' element={<Home />}/>
+        <Route path='/tienda' element={<Tienda />}/>
+      </Routes>
+    </BrowserRouter>
+      
       {/* <MarvelProvider>
         <CharacterList/>
       </MarvelProvider> */}

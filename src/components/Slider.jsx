@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Slider.css'
 import { useEffect, useState } from 'react';
 
@@ -23,9 +24,9 @@ function Slider( { images} ) {
         <div className='slide-track'>
             {images.map((image, index) => (
                 <div className='slide' key={index}>
-                    <a href={image.link}>
+                    <Link to={image.link}>
                         <img src={image.src} alt={image.alt} />
-                    </a>
+                    </Link>
                 </div>
             ))}
         </div>

@@ -1,0 +1,37 @@
+.cardProducto{
+    width: 90%;
+    height: fit-content;
+    background-color: var(--grisOscuro);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.cardProducto__img{
+    width: 30%;
+    background-color: var(--grisClaro);
+    border-radius: 10px;
+}
+
+.cardProducto__info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: var(--grisClaro);
+}
+
+.producto__precio{
+    align-self: self-end;
+    font-size: 2.3em;
+    color: var(--naranjaClaro);
+}
+
+.producto__cuotas{
+    align-self: flex-end;
+    font-size: 0.7em;
+}

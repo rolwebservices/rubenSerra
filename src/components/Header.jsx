@@ -2,23 +2,28 @@ import React from 'react'
 import './Header.css'
 import { useState } from 'react'
 import logo from '/LOGORUBENSERRA.png'
+import { Link } from 'react-router-dom'
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
   return (
     <header>
       <nav className='container'>
         <picture className='nav__logo'>
-          <a className='logo__link' href="http://">
+          <Link className='logo__link' to="/rubenSerra">
             <img src={logo} alt="Logo Ruben Serra" />
-          </a>
+          </Link>
         </picture>
         <div className={`nav__items ${isOpen ? 'open' : ''}`}>
-          <a href="#inicio">Inicio</a>
-          <a href="#nosotros">Nosotros</a>
-          <a href="#contacto">Contacto</a>
-          <a href="#tienda">Tienda</a>
-          <a href="#tienda">Iniciar Sesion</a>
+          <Link to="/rubenSerra" onClick={handleLinkClick}>Inicio</Link>
+          <Link to="#nosotros" onClick={handleLinkClick}>Nosotros</Link>
+          <Link to="#contacto" onClick={handleLinkClick}>Contacto</Link>
+          <Link to="/tienda" onClick={handleLinkClick}>Tienda</Link>
+          <Link to="#tienda" onClick={handleLinkClick}>Iniciar Sesion</Link>
         </div>
         <div className={`nav__toggle ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>
           <span></span>
