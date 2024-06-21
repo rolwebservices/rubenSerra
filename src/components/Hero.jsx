@@ -8,9 +8,9 @@ import ban3 from '/ban3.jpeg'
 const Hero = () => {
 
   const images = [
-    {src: ban1, link: '#', alt: 'Promo x'},
-    {src: ban2, link: '#', alt: 'Promo y'},
-    {src: ban3, link: '#', alt: 'Promo z'}
+    {src: ban1, link: '/tienda', alt: 'Promo x'},
+    {src: ban2, link: '/tienda', alt: 'Promo y'},
+    {src: ban3, link: '/tienda', alt: 'Promo z'}
   ]
 
   return (

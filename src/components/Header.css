@@ -10,7 +10,7 @@ header{
 
 
 nav {
-    width: 80%;
+    width: 90%;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -28,6 +28,7 @@ nav {
 
 .nav__items a:hover{
     background: var(--naranjaClaro);
+    filter: drop-shadow(0 0 0.1em var(--marron));
 }
 
 .nav__items{
