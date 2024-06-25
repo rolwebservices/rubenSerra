@@ -1,3 +1,9 @@
+.cardProductoContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .cardProducto{
     width: 90%;
     height: fit-content;
@@ -10,6 +16,7 @@
     gap: 20px;
     cursor: pointer;
 }
+
 
 .cardProducto__img{
     width: 30%;

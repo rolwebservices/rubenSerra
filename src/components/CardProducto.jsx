@@ -1,11 +1,13 @@
 import React from 'react'
 import './CardProducto.css'
 import Producto from '/LOGORUBENSERRA.png'
-
+import { Link } from 'react-router-dom'
 
 function CardProducto() {
   return (
-    <div className='cardProducto'>
+    <div className='cardProductoContainer'>
+      <Link to='/paginaProducto' className='cardProducto'>
+
         <picture className='cardProducto__img'>
             <img src={Producto} alt="Imagen de producto" />
         </picture>
@@ -14,6 +16,7 @@ function CardProducto() {
             <p className='producto__precio'>$45000</p>
             <p className='producto__cuotas'>LLEVALO EN X CUOTAS</p>
         </div>
+      </Link>
     </div>
   )
 }
