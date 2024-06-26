@@ -1,8 +1,8 @@
 import React from 'react'
-import './Admin.css'
+import './Login.css'
 import { useState } from 'react';
 
-function Admin() {
+function Login() {
     const [user, setUser] = useState('');
     const [password, setPassword] = useState('');
 
@@ -17,4 +17,4 @@ function Admin() {
   )
 }
 
-export default Admin
+export default Login
