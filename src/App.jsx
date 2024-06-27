@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Tienda from './components/Tienda'
 import PaginaProducto from './components/PaginaProducto'
 import Login from './components/Login'
+import Admin from './components/Admin'
 
 /* import { MarvelProvider } from './context/MarvelContext';
 import CharacterList from './components/CharacterList'; */
@@ -22,6 +23,7 @@ function App() {
         <Route path='/tienda' element={<Tienda />}/>
         <Route path='/paginaProducto' element={<PaginaProducto />}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/admin' element={<Admin/>}/>
       </Routes>
     </BrowserRouter>
       
