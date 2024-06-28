@@ -1,3 +1,8 @@
 .admin{
     margin-bottom: 70px;
 }
+
+.admin h1, h2, h3{
+    color: var(--grisOscuro);
+    font-size: 2em;
+}

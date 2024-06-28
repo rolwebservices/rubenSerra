@@ -9,6 +9,12 @@ function Admin() {
         <h1>admin</h1>
         <h2>admin</h2>
         <h3>admin</h3>
+        <h1>admin</h1>
+        <h2>admin</h2>
+        <h3>admin</h3>
+        <h1>admin</h1>
+        <h2>admin</h2>
+        <h3>admin</h3>
     </section>
   )
 }
