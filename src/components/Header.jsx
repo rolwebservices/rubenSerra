@@ -21,9 +21,9 @@ const Header = () => {
         <div className={`nav__items ${isOpen ? 'open' : ''}`}>
           <Link to="/rubenSerra" onClick={handleLinkClick}>Inicio</Link>
           <Link to="#nosotros" onClick={handleLinkClick}>Nosotros</Link>
-          <Link to="#contacto" onClick={handleLinkClick}>Contacto</Link>
+          <Link to="/admin" onClick={handleLinkClick}>Contacto</Link>
           <Link to="/tienda" onClick={handleLinkClick}>Tienda</Link>
-          <Link to="#tienda" onClick={handleLinkClick}>Iniciar Sesion</Link>
+          <Link to="/login" onClick={handleLinkClick}>Iniciar Sesion</Link>
         </div>
         <div className={`nav__toggle ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>
           <span></span>
