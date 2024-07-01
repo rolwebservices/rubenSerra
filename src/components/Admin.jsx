@@ -1,20 +1,20 @@
 import React from 'react'
 import './Admin.css'
-
+import { Link } from 'react-router-dom'
 
 
 function Admin() {
   return (
     <section className='admin'>
-        <h1>admin</h1>
-        <h2>admin</h2>
-        <h3>admin</h3>
-        <h1>admin</h1>
-        <h2>admin</h2>
-        <h3>admin</h3>
-        <h1>admin</h1>
-        <h2>admin</h2>
-        <h3>admin</h3>
+      <Link>
+        <button>Agregar Producto</button>
+      </Link>
+      <Link>
+        <button>Eliminar Producto</button>
+      </Link>
+      <Link>
+        <button>Modificar Producto</button>
+      </Link>
     </section>
   )
 }

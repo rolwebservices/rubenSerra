@@ -55,3 +55,9 @@ img {
     text-align: center;
     text-transform: uppercase;
 }
+
+button{
+    font-family: var(--base-font);
+    border: 0px;
+    cursor: pointer;
+}
